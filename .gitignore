@@ -1,0 +1,20 @@
+# OS images, proprietary inputs, phone data, and generated builds
+*.apfs
+*.dmg
+*.ipsw
+*.img
+*.bin
+*.dylib
+*.a
+*.o
+*.cpo
+*.bgra
+*.dSYM/
+__pycache__/
+.DS_Store
+/build/
+/runs/
+/private-inputs/
+/backups/
+/SDKs/
+/kernel-overlay/bsd/dev/redwood_focaltech_fw.h

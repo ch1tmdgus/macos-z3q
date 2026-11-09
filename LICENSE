@@ -1,0 +1,8 @@
+This is a mixed-license source distribution. Preserve per-file notices.
+
+XNU and derived kernel changes: Apple Public Source License 2.0, subject to per-file notices.
+HackiOS userland/tools: upstream MIT license.
+Vendored libdeflate and libzbitmap: their retained MIT notices/COPYING.
+UniXNU-zeta-derived standalone compatibility tools: BSD-2-Clause-Patent.
+See LICENSES/, kernel-overlay/bsd/miscfs/apfs/libdeflate/COPYING, and THIRD_PARTY.md.
+No license is granted here to Apple system images, SDKs, or vendor firmware.

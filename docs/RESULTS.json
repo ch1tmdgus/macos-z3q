@@ -1,0 +1,42 @@
+{
+  "device": "Samsung Galaxy S20 Ultra SM-G988N / Snapdragon 865 SM8250 / z3q",
+  "system": "macOS Ventura 13.4 / 22F66, RAM recovery profile",
+  "kernel": "XNU 8796.121.2",
+  "confirmed": {
+    "native_desktop": "Finder and Dock observed on the physical device",
+    "cpu_cores": 4,
+    "cpu_big_mhz": 2419,
+    "cpu_prime_mhz": 2841,
+    "integer_loop_ratio": 3.37125748502994,
+    "parallel_cpu_equivalent": 3.86,
+    "gpu_renderer": "freedreno FD650 / OpenGL ES 3.2 Mesa 25.0.7",
+    "gpu_pixel_rgba": [
+      255,
+      0,
+      0,
+      255
+    ],
+    "gpu_blend_one_layer_us": 769,
+    "gpu_test_size": [
+      1125,
+      2436
+    ],
+    "landscape_pixels": [
+      2436,
+      1125
+    ]
+  },
+  "limitations": [
+    "Integer-loop ratio is not desktop FPS",
+    "Offscreen GLES rendering is not WindowServer Metal acceleration",
+    "Touch coordinates and cursor trails remained incorrect in trials 15/16",
+    "Trial 17 uses experimental 2x input conversion; final visible fix not confirmed",
+    "WindowServer restarted once during landscape boot",
+    "Charging, Wi-Fi, audio, sleep, and everyday stability not validated"
+  ],
+  "kernel_hashes": {
+    "cpu_control": "e3f3a4f9acea930244f921fdf95e90942b7b3142d39706104c1660f0f191a680",
+    "landscape_initial": "ab4efaac78dd95ee416bf4c2869eb17c281a9901c0c760194dc6ed8426b60b0a",
+    "retina_input_candidate": "ba937d0024bfa876fb714420bc7cfcc007d881e535306e9e6021df7941fc4c66"
+  }
+}

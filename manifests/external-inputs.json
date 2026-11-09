@@ -1,0 +1,13 @@
+{
+  "excluded_firmware_header": {
+    "path": "bsd/dev/redwood_focaltech_fw.h",
+    "bytes": 706211,
+    "sha256": "bcdf599cd9c18fda84ef006d6a2571b91dfdc52bf84289abbedb76f3336bd452"
+  },
+  "other_inputs": [
+    "macOS 13.4 / 22F66 images obtained separately from Apple",
+    "Locally prepared XNU SDK and kernel static libraries",
+    "Existing compatible xnuloader for this exact phone",
+    "Adreno 650 firmware from a matching legitimate local/device source"
+  ]
+}
